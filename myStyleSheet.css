@@ -1,0 +1,22 @@
+p.none {
+  color: blue;
+  padding: 0em;
+  margin: 2em;
+  border-color: green;
+  border-width: 5px;
+  border-style: dotted;
+}
+p.important {
+  color: orange;
+  padding: 1em;
+  margin: 0em;
+  border-color: brown;
+  border-width: 5px;
+  border-style: dotted;
+}
+h1 {
+  color: red;
+  font-size: 25pt;
+  margin: 2em;
+  padding: 0em;
+}
