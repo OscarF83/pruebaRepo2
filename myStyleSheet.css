@@ -23,7 +23,8 @@ h1 {
 pre {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: lightcoral;
-  padding: 10em;
+  background-color: blueviolet;
+  padding: 3em;
   margin: 1em;
   border-color: brown;
   border-width: 5px;
@@ -53,7 +54,7 @@ section > p {
 #pAzul {
   padding: 1em;
   margin: 1em;
-  border-color: blue;
+  border-color: rgb(0, 247, 255);
   border-width: 5px;
   border-style: dotted;
 }
@@ -63,4 +64,8 @@ a {
   border-color: rgb(42, 165, 58);
   border-width: 5px;
   border-style: dotted;
+}
+iframe {
+  padding: 2em;
+  margin: 5em;
 }
