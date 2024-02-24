@@ -5,6 +5,9 @@ p.none {
   border-color: green;
   border-width: 5px;
   border-style: dotted;
+  width: 50em;
+  display: flex;
+  justify-content: end;
 }
 p.important {
   color: orange;
@@ -13,6 +16,21 @@ p.important {
   border-color: brown;
   border-width: 5px;
   border-style: dotted;
+  width: 10em;
+  display: flex;
+  justify-content: center;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+article {
+  display: flex;
+  flex-direction: column-reverse;
+}
+footer {
+  display: flex;
+  flex-direction: row;
 }
 h1 {
   color: red;
@@ -32,10 +50,12 @@ pre {
 }
 code {
   padding: 1em;
-  margin: 10em;
+  margin: 1em;
   border-color: brown;
   border-width: 5px;
   border-style: dotted;
+  display: flex;
+  flex-direction: row;
 }
 p {
   padding: 1em;
@@ -52,6 +72,7 @@ section > p {
   border-style: dotted;
 }
 #pAzul {
+  color: aquamarine;
   padding: 1em;
   margin: 1em;
   border-color: rgb(0, 247, 255);
@@ -60,12 +81,27 @@ section > p {
 }
 a {
   padding: 1em;
-  margin: 10em;
+  margin: 1em;
   border-color: rgb(42, 165, 58);
   border-width: 5px;
   border-style: dotted;
+  display: flex;
+  flex-direction: row;
 }
 iframe {
   padding: 2em;
-  margin: 5em;
+  margin: 1em;
+}
+img {
+  padding: 2em;
+  margin: 1em;
+}
+ol {
+  color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+li {
+  padding: 1em;
 }
